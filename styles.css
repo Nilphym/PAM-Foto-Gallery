@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  justify-content: center;
+}
+
+img {
+  width: 50vw;
+  height: 500px;
+  object-fit: cover;
+  border: 2px solid black;
+  scroll-snap-align: center;
+}
+
+.image-view {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.image-view img {
+  width: 100%;
+  height: 100%;
+}
+
+.exit-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  cursor: pointer;
+  z-index: 1000;
+}
