@@ -1,4 +1,4 @@
-# PAM-Foto-Gallery
+# Foto Gallery
 
 Small and quick project made for university course. Should be run on the mobile device.  
   
